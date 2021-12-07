@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-void main(void) {
+int main(int argc, char *argv[]) {
 	char* pc = NULL;
 	int i = 0;
 
@@ -15,5 +15,8 @@ void main(void) {
 	}
 	pc[i] = 0;					//문자열 만들기 위해 마지막에 0 넣어줌
 	printf("%s\n", pc);
+	
 	free(pc);
+	
+	return 0;
 }
