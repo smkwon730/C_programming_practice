@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "linkedlist.h"
+#include "linkedList.h"
 
 int main(int argc, char* argv) {
 	addTail(10);
